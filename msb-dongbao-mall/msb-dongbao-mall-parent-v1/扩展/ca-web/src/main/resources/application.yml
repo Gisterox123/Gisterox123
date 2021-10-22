@@ -1,0 +1,14 @@
+
+# http¶Ë¿Ú
+http-port: 82
+# https¶Ë¿Ú
+server:
+  port: 81
+
+
+  ssl:
+    key-store: classpath:dongbao-alias.keystore
+    key-store-type: JKS
+    key-alias: dongbao-alias
+    key-store-password: 123456
+    key-password: 123456
